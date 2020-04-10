@@ -16,8 +16,8 @@ export const SpellInput = ({spell}) => {
     return(
         <>
          <input value={name} onChange={(e)=> setName(e.target.value)}/>
-         <button onClick={onUpdate()}>Update Spell</button> 
-         <button onClick={onDelete()}>Delete Spell</button>
+         <button onClick={onUpdate}>Update Spell</button> 
+         <button onClick={onDelete}>Delete Spell</button>
         </>
     )
 };
